@@ -1,5 +1,4 @@
 FROM ubuntu:14.04
-ADD ./sources.list /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get install -y ruby-dev libmysqlclient-dev libxslt1-dev libxml2-dev libpq-dev build-essential automake libtool libc6-dev libsqlite3-dev
 
